@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.hi {
+    font-family: 'Sacramento', cursive;
+    font-size: 8rem;
+}
+.text {
+    font-family: 'Handlee', cursive;
+    position: relative;
+    top: -170px;
+    font-size: 1.5rem;
+}
+
+.hi, .text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 5px 5px 20px rgb(16, 16, 16) ;
+
+}
